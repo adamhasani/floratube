@@ -4,7 +4,7 @@ export default async function Home() {
 
   try {
     // Karena ini Next.js, fetch ini dijalankan di server Vercel. Bye-bye CORS!
-    const res = await fetch('https://invidious.jing.rocks/api/v1/trending?region=ID', {
+    const res = await fetch('https://inv.tux.pizza/api/v1/trending?region=ID', {
       cache: 'no-store' // Supaya datanya selalu update
     });
     
